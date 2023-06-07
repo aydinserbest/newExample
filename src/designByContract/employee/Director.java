@@ -3,6 +3,8 @@ package designByContract.employee;
 public class Director extends Manager{
 
     protected double bonus;
+    
+    protected int num;
 
     public Director(int no, int year,String name, String workingDepartment, String managingDepartment , double bonus){
         super(no,year,name, workingDepartment,managingDepartment);
