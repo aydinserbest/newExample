@@ -5,7 +5,7 @@ public class Manager extends Employee{
     public static final int MANAGEMENT_SALARY = 3000;
 
     public Manager(int no, int year, String name, String workingDepartment, String departmentManaged){
-        super(no,year,name,workingDepartment);
+        super(no,name, year,workingDepartment);
         this.departmentManaged=departmentManaged;
     }
     public void work(){

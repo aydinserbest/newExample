@@ -4,13 +4,14 @@ public class Employee {
 
     protected int no;
     protected int year;
+
     protected String name;
     protected String department;
     protected double salary;
 
     public static final int BASE_SALARY= 500;
 
-    public Employee(int no,int year, String name, String department){
+    public Employee(int no,String name,int year, String department){
         this.department=department;
         this.name=name;
         this.no=no;
