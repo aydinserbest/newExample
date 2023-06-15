@@ -11,6 +11,7 @@ public class Test {
         Taxi taxi2 = new Taxi("Zafer");
         customer2.callTaxi(taxi2);
         System.out.println("mrb");
+        System.out.println("kkkkkg");
 
 
     }
