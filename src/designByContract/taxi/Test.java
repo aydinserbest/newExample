@@ -10,6 +10,7 @@ public class Test {
         Customer customer2 = new Customer("Kamil", 1200);
         Taxi taxi2 = new Taxi("Zafer");
         customer2.callTaxi(taxi2);
+        System.out.println("mrb");
 
 
     }
